@@ -1,0 +1,133 @@
+ /*------- Extra small devices (portrait phones, less than 576px) ---------*/
+ @media (max-width: 575.98px) {
+     .center {
+         display: flex;
+         justify-content: center;
+         text-align: center;
+     }
+
+     nav#top {
+         display: none;
+     }
+
+     nav#menu {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         z-index: 999999;
+         background: #fff;
+         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+
+         .navbar-nav li .nav-link {
+             color: #000 !important;
+         }
+
+         .sb-search {
+             height: 45px;
+         }
+
+         .sb-icon-close,
+         .sb-icon-search {
+             top: 3px !important;
+             color: $primary-color !important;
+         }
+
+         #sa {
+             top: 3px !important;
+             color: $white;
+         }
+
+         .sb-search-input.sb-input-pad {
+             background: $primary-color !important;
+             height: 40px;
+             top: 2px;
+             width: 85%;
+             color: $white !important;
+         }
+     }
+
+     .leadBox{
+         padding-top: 65px;
+     }
+
+     .responsive-logo {
+         display: block;
+         top: 4px !important;
+         left: 60px !important;
+
+         img {
+             height: 40px !important;
+         }
+     }
+
+     .megamenu {
+
+         .mega {
+
+             .megaitems {
+                 width: 50%;
+                 padding: 10px 5px;
+                 border-bottom: 1px solid #e1dfdf;
+             }
+         }
+     }
+
+     .video-gallery .rel::after {
+         display: none;
+     }
+
+     .video-gallery .video-others {
+         margin-bottom: 35px;
+     }
+
+     .video-gallery .video-first .catTitle .liner::before,
+     .video-gallery .video-first .catTitle .liner::after {
+        z-index: -1;
+    }
+ }
+
+ /*--------- Small devices (landscape phones, 576px and up) ---------*/
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav#top{
+
+        .center {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            small{
+                text-align: center;
+            }
+        }
+    }
+
+    .video-gallery .rel::after {
+        display: none;
+    }
+
+    .video-gallery .video-others {
+        margin-bottom: 35px;
+    }
+
+    .video-gallery .video-first .catTitle .liner::before,
+    .video-gallery .video-first .catTitle .liner::after {
+       z-index: -1;
+   }
+ }
+
+ /*--------- Medium devices (tablets, 768px and up) ---------*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .video-first .linear {
+         position: relative;
+     }
+
+     .deshjure .catTitle .liner {
+         position: relative;
+     }
+ }

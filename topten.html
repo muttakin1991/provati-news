@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jagonews24</title>
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!---------- Topbar ---------------->
+        <nav id="top" class="navbar">
+            <div class="container-fluid">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-4 center">
+                            <small class="date">
+                                বুধবার, ২৩ জুন ২০২১
+                                <span class="d-block">৮ আষাঢ় ১৪২৮ বঙ্গাব্দ</span>
+                            </small>
+                        </div>
+                        <div class="col-sm-4 center">
+                            <a class="navbar-brand" href="index.html">
+                                <img alt="Logo" src="assets/images/home/logo.png" style="width: 340px;">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 center mt-20">
+                            <ul class="social-media">
+                                <li>
+                                    <a href="https://www.facebook.com/jagonews24" target="_blank" title="Facebook">
+                                        <i class="zmdi zmdi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCWJkfdG6J2HUxOHrORuHZ2g?sub_confirmation=1"
+                                        target="_blank" title="Youtube">
+                                        <i class="zmdi zmdi-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/jagonews24" target="_blank" title="Twitter">
+                                        <i class="zmdi zmdi-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/jagonews24/" target="_blank" title="Instagram">
+                                        <i class="zmdi zmdi-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!---------- Menubar ---------------->
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menubar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menubar">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><i class="zmdi zmdi-home"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বাংলাদেশ
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="national.html">জাতীয়</a>
+                                <a class="dropdown-item" href="politics.html">রাজনীতি</a>
+                                <a class="dropdown-item" href="economics.html">অর্থনীতি</a>
+                                <a class="dropdown-item" href="special-report.html">বিশেষ প্রতিবেদন</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coronavirus.html">করোনাভাইরাস</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                দেশজুড়ে
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="whole-country.html">জেলার খবর</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="international.html">আন্তর্জাতিক</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                খেলাধুলা
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="cricket.html">ক্রিকেট</a>
+                                <a class="dropdown-item" href="football.html">ফুটবল</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="podcast.html">পডকাস্ট</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topten.html">টপ টেন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">ভিডিও</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বিনোদন
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="hollywood.html">হলিউড</a>
+                                <a class="dropdown-item" href="bollywood.html">বলিউড</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                ফিচার
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="photo-gallery.html">ফটো গ্যালারি</a>
+                                <a class="dropdown-item" href="lifestyle.html">লাইফস্টাইল</a>
+                                <a class="dropdown-item" href="technology.html">তথ্যপ্রযুক্তি</a>
+                                <a class="dropdown-item" href="travel.html">ভ্রমণ</a>
+                                <a class="dropdown-item" href="agriculture.html">কৃষি ও প্রকৃতি</a>
+                                <a class="dropdown-item" href="jokes.html">জোকস</a>
+                                <a class="dropdown-item" href="ekush.html">একুশে বইমেলা</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"
+                                class="nav-link dropdown-toggle text-uppercase">অন্যান্য</a>
+                            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                                <div class="container-fluid p-0">
+                                    <div class="row bg-white m-0 shadow-sm" style="border-radius: 5px 5px 0 0;">
+                                        <div class="col-sm-12">
+                                            <div class="p-2">
+                                                <div class="row mega">
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href="education.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">শিক্ষা</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="campus.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">ক্যাম্পাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="health.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">স্বাস্থ্য</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="law.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">আইন-আদালত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">ধর্ম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">প্রবাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">গণমাধ্যম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">নারী ও
+                                                                    শিশু</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">বাণিজ্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">
+                                                                    সাহিত্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">জাগো
+                                                                    জবস
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">মতামত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-clock-o"></span> আজকের আয়োজন</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-camera-retro"></span> আর্কাইভ</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-share-alt"></span> সোশ্যাল
+                                                                    মিডিয়া</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-language"></span> ইউনিকোড
+                                                                    কনভার্টার</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row flex-xl-nowrap">
+                <main class="col-sm-12 py-md-3 p-5 bd-content bg-light" role="main">
+                    <div class="row">
+                        <div class="col-sm-3 d-print-none hidden-print" style="padding-left: 0; margin-top: 20px">
+                            <div class="list-group list-group-flush date-filters">
+                                <a class="list-group-item active-item" href="/top-ten/20210623">২৩ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210622">২২ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210621">২১ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210620">২০ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210619">১৯ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210618">১৮ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210617">১৭ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210616">১৬ জুন ২০২১</a><a
+                                    class="list-group-item " href="/top-ten/20210615">১৫ জুন ২০২১</a><a
+                                    class="list-group-item" href="/top-ten/20210614">১৪ জুন ২০২১</a></div>
+                            <button class="list-group-item load-more"
+                                style="border: 1px solid #ddd; text-align: center;border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;">+
+                                আরও</button>
+                        </div>
+                        <div class="col-sm-9 bg-white print" style="background: #FFF; margin-top: 20px">
+                            <div class="d-print-inline print-less-margin" style="margin: 5rem">
+                                <div class="print-less-margin"
+                                    style="height: 8px; background-color: #F5F5F6; margin: 20px 0;"></div>
+                                <h3 style="font-weight: bold">জাগো টপ টেন</h3>
+                                <p>২৩ জুন ২০২১</p>
+                                <div class="hidden-print">
+                                    <div class="custom-social-share">
+                                        <ul class="social-media custom-social-share">
+                                            <li style="margin-left: -5px;">
+                                                <button type="button">
+                                                    <i style="background: #3b5998;" class="fab fa-facebook-f"></i></button>
+                                            </li>
+                                            <li>
+                                                <button type="button">
+                                                    <i style="background: #00aced;" class="fab fa-twitter"></i></button>
+                                            </li>
+                                            <li>
+                                                <button type="button">
+                                                    <i class="fab fa-whatsapp" style="background: #25D366;"></i></button>
+                                            </li>
+                                            <li>
+                                                <button type="button"><i
+                                                        class="fa fa-print"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="print-less-margin"
+                                    style="height: 8px; background-color: #F5F5F6; margin: 20px 0;"></div>
+                            </div>
+                            <div style="margin: 5rem" class="print-less-margin">
+                                <ol class="news-list print print-less-margin print-less-padding">
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief1" style="overflow: hidden;">
+                                            <h3>আ.লীগ হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dudok-png-3-20210623204710.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="আ.লীগ হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>বাংলাদেশ আওয়ামী লীগের সভাপতি শেখ হাসিনা বলেছেন, ‘আওয়ামী লীগ তো হীরার
+                                                    টুকরো, যতবার ভেঙেছে আরও জ্বলজ্বল করেছে, নতুনভাবে জ্যোতি ছড়িয়েছে।’
+                                                    তিনি বলেন, ‘আওয়ামী লীগের ওপর বারবার আঘাত এসেছে। কিন্তু যতবার আঘাত
+                                                    এসেছে, ততবার আওয়ামী লীগ ঘুরে দাঁড়িয়েছে। এ সংগঠনকে ধ্বংস করার অনেক
+                                                    চেষ্টা করা হয়েছে। কিন্তু কেউ পারেনি এবং আগামীতেও পারবে না।’</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/national/news/678152">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief2" style="overflow: hidden;">
+                                            <h3>করোনায় ২৪ ঘণ্টায় ৮৫ মৃত্যু, রাজশাহী-খুলনাতেই ৫৪</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/corona-20210623165924.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="করোনায় ২৪ ঘণ্টায় ৮৫ মৃত্যু, রাজশাহী-খুলনাতেই ৫৪">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>করোনাভাইরাসে আক্রান্ত হয়ে গত ২৪ ঘণ্টায় সারাদেশে আরও ৮৫ জনের মৃত্যু
+                                                    হয়েছে। এ নিয়ে প্রাণঘাতী এ ভাইরাসে আক্রান্ত হয়ে দেশে মৃত্যুর সংখ্যা
+                                                    বেড়ে দাঁড়াল ১৩ হাজার ৭৮৭ জনে। ২৪ ঘণ্টায় মৃত ৮৫ জনের মধ্যে পুরুষ ৫৫
+                                                    জন ও নারী ৩০ জন। এদের মধ্যে সরকারি হাসপাতালে চিকিৎসাধীন অবস্থায় ৬৫
+                                                    জন, বেসরকারি হাসপাতালে ৯ জন, বাসায় ১০ জন ও হাসপাতালে আনার পথে একজন
+                                                    মারা যান।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/national/news/678069">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief3" style="overflow: hidden;">
+                                            <h3>বিনা প্রতিদ্বন্দ্বিতায় এমপি হওয়ার পথে আগা খান</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/aga-20210623181045.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="বিনা প্রতিদ্বন্দ্বিতায় এমপি হওয়ার পথে আগা খান">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>বিনা প্রতিদ্বন্দ্বিতায় নির্বাচিত হওয়ার পথে ঢাকা-১৪ আসনের প্রার্থী
+                                                    ক্ষমতাসীন আওয়ামী লীগের আগা খান মিন্টু। এই আসনে তিনজন প্রার্থী তাদের
+                                                    মনোনয়ন প্রত্যাহার করায় তিনি বিনা প্রতিদ্বন্দ্বিতায় এমপি হচ্ছেন।
+                                                    বুধবার (২৩ জুন) সহকারী রিটার্নিং কর্মকর্তা মো. শাহজালাল সাংবাদিকদের
+                                                    এ তথ্য জানিয়েছেন।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/national/news/678101">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief4" style="overflow: hidden;">
+                                            <h3>পরীমনির ধর্ষণ-হত্যাচেষ্টা মামলা : নাসির-অমি ৫ দিনের রিমান্ডে</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/naisr-20210623170326.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="পরীমনির ধর্ষণ-হত্যাচেষ্টা মামলা : নাসির-অমি ৫ দিনের রিমান্ডে">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>ধর্ষণ-হত্যাচেষ্টার অভিযোগে ঢাকাই সিনেমার অভিনেত্রী পরীমনির মামলায়
+                                                    ব্যবসায়ী নাসির উদ্দিন মাহমুদ এবং তার বন্ধু তুহিন সিদ্দিকী অমির পাঁচ
+                                                    দিনের রিমান্ড মঞ্জুর করেছেন আদালত। বুধবার (২৩ জুন) ঢাকার চিফ
+                                                    জুডিশিয়াল ম্যাজিস্ট্রেট রাজীব হাসান শুনানি শেষে এ রিমান্ড মঞ্জুর
+                                                    করেন।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/law-courts/news/678070">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief5" style="overflow: hidden;">
+                                            <h3>৮ বছর জেল খেটে ৪৯ মামলার বাদীকে খুঁজছেন কাঞ্চন</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/kanchan-20210623201253.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="৮ বছর জেল খেটে ৪৯ মামলার বাদীকে খুঁজছেন কাঞ্চন">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>‘ঝগড়ার জেরে’ ঢাকার সিএমএম কোর্টের সামনে বাদীকে মারধরের ঘটনায় দায়ের
+                                                    হওয়া মামলায় প্রথম কারাগারে যান রাজধানীর শান্তিবাগের বাসিন্দা একরামুল
+                                                    আহসান কাঞ্চন। তবে মামলাটি ছিল সাজানো। এরপর আরেক মামলায় হাজিরা দিতে
+                                                    গিয়ে জেলে যেতে হয় তাকে।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/special-reports/news/678141">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief6" style="overflow: hidden;">
+                                            <h3>সংক্রমণ-মৃত্যু বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/common/placeholder-bg.png"
+                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/corona-deat-20210623195203.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="সংক্রমণ-মৃত্যু বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>দেশে করোনাভাইরাসের সংক্রমণ ও মৃত্যু আবারো বেড়েছে। গত এক বছরেরও বেশি
+                                                    সময় ধরে সংক্রমণ ও মৃত্যুর হিসাবে শীর্ষে ছিল ঢাকা ও চট্টগ্রাম বিভাগ।
+                                                    সম্প্রতি রাজশাহী, খুলনা ও রংপুর বিভাগের সীমান্তবর্তী জেলাগুলোতে
+                                                    সংক্রমণ ও মৃত্যু বেড়েছে।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/national/news/678137">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief7" style="overflow: hidden;">
+                                            <h3>দেড় মণ ওজনের কাঁঠাল, বিক্রি হলো ২৩শ টাকায়</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/common/placeholder-bg.png"
+                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/jack-2-20210623180251.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="দেড় মণ ওজনের কাঁঠাল, বিক্রি হলো ২৩শ টাকায়">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>এক কাঁঠালের ওজন ৬৫ কেজি! বিশালাকৃতির এ কাঁঠালকে ঘিরে গত দুদিন ধরে ছিল
+                                                    ক্রেতা আর উৎসুক জনতার ভিড়। অবশেষে কাঁঠালটি বিক্রি হলো দুই হাজার
+                                                    তিনশ টাকায়। কিশোরগঞ্জ শহরের পুরানথানা এলাকার ইসলামিয়া সুপার
+                                                    মার্কেটের এক মোবাইল ব্যবসায়ী বুধবার (২৩ জুন) দুপুরে কাঁঠালটি কিনে
+                                                    নেন।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/country/news/678095">বিস্তারিত পড়ুন
+                                                    »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief8" style="overflow: hidden;">
+                                            <h3>খুলনা বিভাগে একদিনে রেকর্ড ৩২ জনের মৃত্যু, শনাক্ত ৯০৩</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/common/placeholder-bg.png"
+                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/corona-2-20210623134745.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="খুলনা বিভাগে একদিনে রেকর্ড ৩২ জনের মৃত্যু, শনাক্ত ৯০৩">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>খুলনা বিভাগে করোনাভাইরাস ভয়াবহ রূপ নিয়েছে। কোনোভাবেই থামছে না মৃত্যুর
+                                                    মিছিল। প্রায় প্রতিদিনই ভাঙছে মৃত্যুর রেকর্ড। গত ২৪ ঘণ্টায় অদৃশ্য এই
+                                                    ভাইরাসে আক্রান্ত হয়ে বিভাগে রেকর্ড ৩২ জনের মৃত্যু হয়েছে। এই সময়ে
+                                                    বিভাগে নতুন করে শনাক্ত হয়েছে ৯০৩ জন।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/country/news/677992">বিস্তারিত পড়ুন
+                                                    »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief9" style="overflow: hidden;">
+                                            <h3>ইথিওপিয়ায় বাজারে বিমান হামলায় ‘৮০ জনের বেশি’ নিহত</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/common/placeholder-bg.png"
+                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/ethiopia-1-20210623212640.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="ইথিওপিয়ায় বাজারে বিমান হামলায় ‘৮০ জনের বেশি’ নিহত">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>ইথিওপিয়ায় একটি ব্যস্ত বাজারে বিমান হামলায় কয়েক ডজন বেসামরিক মানুষ
+                                                    প্রাণ হারিয়েছেন। মঙ্গলবার দেশটির উত্তরাঞ্চলীয় তাইগ্রে অঞ্চলের তোগোগা
+                                                    গ্রামে এ ঘটনা ঘটেছে। হামলায় ভুক্তভোগী এক নারী বার্তা সংস্থা
+                                                    রয়টার্সকে জানিয়েছেন, স্থানীয় সময় দুপুর ১টার দিকে বাজারের ওপর বোমা
+                                                    ফেলা হয়। এতে তার স্বামী ও দুই বছরের কন্যা আহত হয়েছে।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/international/news/678162">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="print-less-padding">
+                                        <div class="news-item-1 news-item" id="brief10" style="overflow: hidden;">
+                                            <h3>ক্ষমতাধরদের ‘ভণ্ডামিতে’ হুমকির মুখে অ্যান্টার্কটিকা</h3>
+                                            <div class="pt-10">
+                                                <div class="featured-image">
+                                                    <img src="https://cdn.jagonews24.com/media/common/placeholder-bg.png"
+                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/antarctica-1-20210623203132.jpg"
+                                                        style="width:100%;" class="w-100 img-fluid"
+                                                        alt="ক্ষমতাধরদের ‘ভণ্ডামিতে’ হুমকির মুখে অ্যান্টার্কটিকা">
+                                                </div>
+                                            </div>
+                                            <div class="details">
+                                                <p>অ্যান্টার্কটিকার পরিবেশ রক্ষায় ১৯৫৯ সালে সই হয়েছিল ঐতিহাসিক এক
+                                                    চুক্তি। এসময় বরফঢাকা মহাদেশটিকে যুদ্ধ, অস্ত্র ও পরমাণু বর্জ্য থেকে
+                                                    মুক্ত রাখতে একমত হয়েছিলেন বিশ্বের নেতারা। কিন্তু প্রভাবশালীদের
+                                                    ক্ষমতার প্রতিযোগিতা আর অর্থলিপ্সার সামনে আজ বিপণ্ন হয়ে পড়েছে
+                                                    অ্যান্টার্কটিকা, সঙ্গে যোগ হয়েছে জলবায়ু পরিবর্তনের হুমকি।</p>
+                                            </div>
+                                            <div class="hidden-print" style="margin: 35px 0;">
+                                                <a target="_blank"
+                                                    style="padding: 8px 10px; background: #ad1520; color: #fff; border-radius: 8px; font-size: 16px; text-decoration: none; outline: none"
+                                                    href="https://www.jagonews24.com/international/news/678148">বিস্তারিত
+                                                    পড়ুন »</a>
+                                            </div>
+                                            <div class="hidden-print">
+                                                <div class="custom-social-share"
+                                                    style="display: flex; justify-content: center">
+                                                    <ul class="social-media custom-social-share">
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-facebook"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-twitter"></i></button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button">
+                                                                <i class="fab fa-whatsapp"
+                                                                    style="background: #25D366;"></i></button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <div class="footer-logo hidden-xs">
+            <div class="container-fluid">
+                <div class="row hidden-print">
+                    <div class="col-sm-12">
+                        <div id="subscription" class="text-center"></div>
+                    </div>
+                </div>
+                <div class="row hidden-print">
+                    <div class="col-sm-4 center">
+                        <a href="index.html"><img src="assets/images/home/logo.png"
+                                style="margin-top:-10px;width: 260px;" alt="Logo"></a>
+                    </div>
+                    <div class="col-sm-4 text-center subscribe hidden-print">
+                    </div>
+                    <div class="col-sm-4 text-right hidden-print">
+                        <div class="apps">
+                            <a href="https://play.google.com/store/apps/details?id=com.jagonews24.bangla" rel="nofollow"
+                                target="_blank"><img
+                                    src="https://cdn.jagonews24.com/media/common/Android-app-jagonews.png"
+                                    alt="Android App" title="Android"></a>
+                            <a href="https://itunes.apple.com/us/app/jagonews24.com/id1047514259?ls=1&amp;mt=8"
+                                rel="nofollow" target="_blank">
+                                <img src="https://cdn.jagonews24.com/media/common/apple-app-jagonews.png" alt="iPhone"
+                                    title="iPhone">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="small text-muted">
+                            <span>ভারপ্রাপ্ত সম্পাদক: জিয়াউল হক <br>© ২০২১ সর্বস্বত্ব সংরক্ষিত | জাগোনিউজ২৪.কম, একেসি
+                                প্রাইভেট লিমিটেডের একটি প্রতিষ্ঠান</span><br>
+                            <i class="fa fa-map-marker"></i> আজহার কমফোর্ট কমপ্লেক্স (৫ম তলা), গ-১৩০/এ প্রগতি সরণি,
+                            মধ্যবাড্ডা, ঢাকা-১২১২
+                            <br>
+                            <abbr title="Phone:"><i class="fa fa-phone"></i> </abbr> ৮৮ ০২ ২২২২৬২৬৮৯ ,
+                            <abbr title="Fax:"><i class="fa fa-fax"></i> </abbr> ৮৮ ০২ ৯৮৪২১৭৬
+                            <a href="https://wa.me/8801704112020" class="small text-muted" target="_blank"
+                                rel="nofollow">
+                                <abbr title="WhatsApp:"><i class="fa fa-whatsapp"></i> </abbr> +8801704112020<br>
+                            </a>
+                            <span class="small">
+                                <abbr title="Email:"><i class="fa fa-envelope"></i> </abbr> info@jagonews24.com,
+                                jagonews24@gmail.com<br>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-sm-5 footer-top hidden-print">
+                        <ul class="footer-menu text-center">
+                            <li class="pb-10"><a href="https://www.jagonews24.com/about-us">আমাদের কথা</a>
+                            </li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/contact">যোগাযোগ </a></li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/privacy-policy"
+                                    target="_blank">প্রাইভেসি পলিসি</a></li>
+                            <li class="active pb-10"><a href="https://www.jagonews24.com/bangla-converter"
+                                    target="_blank">ইউনিকোড কনভার্টার</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-top-wrapper hidden-print show">
+                <span class="scroll-top-inner">
+                    <i class="fa fa-2x fa-angle-up"></i>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- All js files are included here. -->
+    <!-- jquery latest version -->
+    <script src="assets/plugins/jquery/jquery-v3.3.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <!-- Main js file  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

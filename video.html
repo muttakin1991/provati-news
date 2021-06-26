@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jagonews24</title>
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!---------- Topbar ---------------->
+        <nav id="video-top fixed-top" class="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex flex-column w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img style="max-width: 210px;" src="assets/images/home/logo.JPG"
+                            alt="JagoNews24.com">
+                    </a>
+                    <ul class="navbar-nav nav-masthead">
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="index.html">
+                                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-house mr-2"
+                                    fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z">
+                                    </path>
+                                </svg>
+                                প্রচ্ছদ
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link d-flex" aria-current="page" href="video.html">
+                                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-camera-video mr-2"
+                                    fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M2.667 3.5c-.645 0-1.167.522-1.167 1.167v6.666c0 .645.522 1.167 1.167 1.167h6.666c.645 0 1.167-.522 1.167-1.167V4.667c0-.645-.522-1.167-1.167-1.167H2.667zM.5 4.667C.5 3.47 1.47 2.5 2.667 2.5h6.666c1.197 0 2.167.97 2.167 2.167v6.666c0 1.197-.97 2.167-2.167 2.167H2.667A2.167 2.167 0 0 1 .5 11.333V4.667z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M11.25 5.65l2.768-1.605a.318.318 0 0 1 .482.263v7.384c0 .228-.26.393-.482.264l-2.767-1.605-.502.865 2.767 1.605c.859.498 1.984-.095 1.984-1.129V4.308c0-1.033-1.125-1.626-1.984-1.128L10.75 4.785l.502.865z">
+                                    </path>
+                                </svg>
+                                ভিডিও
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="photo-gallery.html">
+                                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-camera-video mr-2"
+                                    fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z">
+                                    </path>
+                                    <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"></path>
+                                </svg>
+                                ছবি
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="podcast.html">
+                                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-camera-video mr-2"
+                                    fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M10 8V3a2 2 0 1 0-4 0v5a2 2 0 1 0 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z">
+                                    </path>
+                                </svg>
+                                পডকাস্ট
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="topten.html">
+                                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-camera-video mr-2"
+                                    fill="black" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4 1h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1H2a2 2 0 0 1 2-2z">
+                                    </path>
+                                    <path
+                                        d="M2 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H2z">
+                                    </path>
+                                    <path fill-rule="evenodd"
+                                        d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm1.639-4.208l1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208zM6.75 4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5z">
+                                    </path>
+                                </svg>
+                                টপটেন
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex search-selector">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="black"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z">
+                            </path>
+                        </svg>
+                        <svg style="display: none;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x"
+                            fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z">
+                            </path>
+                            <path fill-rule="evenodd"
+                                d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div style="display: none;" class="search-box container">
+                    <form class="d-flex" action="https://www.jagonews24.com/search" style="width: 100%;" method="get"
+                        id="cse-search-box" target="_blank">
+                        <input type="hidden" name="cx" value="009737550856177646857:g5gonwr4hw8">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" name="ie" value="utf-8">
+                        <div class="input-group" style="display: contents;">
+                            <input style="border-radius: 20px 0 0 20px; border: 1px solid #eee" type="text"
+                                class="form-control" name="q" required="" aria-label="Search input"
+                                placeholder="অনুসন্ধান..." aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <button type="submit"
+                            style="padding: 0px 20px;border: 2px solid #eee; border-radius: 0 20px 20px 0;">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="black"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z">
+                                </path>
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+
+        </nav>
+
+        <!---------- Menubar ---------------->
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menubar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menubar">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><i class="zmdi zmdi-home"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বাংলাদেশ
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="national.html">জাতীয়</a>
+                                <a class="dropdown-item" href="politics.html">রাজনীতি</a>
+                                <a class="dropdown-item" href="economics.html">অর্থনীতি</a>
+                                <a class="dropdown-item" href="special-report.html">বিশেষ প্রতিবেদন</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coronavirus.html">করোনাভাইরাস</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                দেশজুড়ে
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="whole-country.html">জেলার খবর</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="international.html">আন্তর্জাতিক</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                খেলাধুলা
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="cricket.html">ক্রিকেট</a>
+                                <a class="dropdown-item" href="football.html">ফুটবল</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="podcast.html">পডকাস্ট</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topten.html">টপ টেন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">ভিডিও</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বিনোদন
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="hollywood.html">হলিউড</a>
+                                <a class="dropdown-item" href="bollywood.html">বলিউড</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                ফিচার
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="photo-gallery.html">ফটো গ্যালারি</a>
+                                <a class="dropdown-item" href="lifestyle.html">লাইফস্টাইল</a>
+                                <a class="dropdown-item" href="technology.html">তথ্যপ্রযুক্তি</a>
+                                <a class="dropdown-item" href="travel.html">ভ্রমণ</a>
+                                <a class="dropdown-item" href="agriculture.html">কৃষি ও প্রকৃতি</a>
+                                <a class="dropdown-item" href="jokes.html">জোকস</a>
+                                <a class="dropdown-item" href="ekush.html">একুশে বইমেলা</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"
+                                class="nav-link dropdown-toggle text-uppercase">অন্যান্য</a>
+                            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                                <div class="container-fluid p-0">
+                                    <div class="row bg-white m-0 shadow-sm" style="border-radius: 5px 5px 0 0;">
+                                        <div class="col-sm-12">
+                                            <div class="p-2">
+                                                <div class="row mega">
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href="education.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">শিক্ষা</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="campus.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">ক্যাম্পাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="health.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">স্বাস্থ্য</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="law.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">আইন-আদালত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">ধর্ম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">প্রবাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">গণমাধ্যম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">নারী ও
+                                                                    শিশু</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">বাণিজ্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">
+                                                                    সাহিত্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">জাগো
+                                                                    জবস
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">মতামত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-clock-o"></span> আজকের আয়োজন</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-camera-retro"></span> আর্কাইভ</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-share-alt"></span> সোশ্যাল
+                                                                    মিডিয়া</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-language"></span> ইউনিকোড
+                                                                    কনভার্টার</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div class="container-fluid">
+            <div class="positional-contents my-3">
+                <div class="row">
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7486">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-7-20210624211615.jpg"
+                                    alt="১ মিনিটে আজকের বাংলাদেশ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">১ মিনিটে আজকের বাংলাদেশ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7488">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624220859.jpg"
+                                    alt="জলে ভাসছে প্রধানমন্ত্রীর দেয়া উপহারের ঘর | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">জলে ভাসছে প্রধানমন্ত্রীর দেয়া উপহারের ঘর | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7487">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624215248.jpg"
+                                    alt="সরকারি জ্বালানির ট্যাংকারে গাঁজা, প্রাইভেটকারের সিলিন্ডারে ইয়াবা | ২৪ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">সরকারি জ্বালানির ট্যাংকারে গাঁজা, প্রাইভেটকারের সিলিন্ডারে ইয়াবা
+                                    | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7485">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624203213.jpg"
+                                    alt="৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7484">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/1280px-hd-20210624185906.jpg"
+                                    alt="ক্লিক স্বাস্থ্য কথন | পর্ব ০৩ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">ক্লিক স্বাস্থ্য কথন | পর্ব ০৩ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7483">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624172442.jpg"
+                                    alt="পণ্য ডেলিভারির পর টাকা পাবে ইভ্যালির মতো প্রতিষ্ঠান | ২৪ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">পণ্য ডেলিভারির পর টাকা পাবে ইভ্যালির মতো প্রতিষ্ঠান | ২৪ জুন
+                                    ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7482">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624165555.jpg"
+                                    alt="লকডাউন-সংক্রমণ ঝুঁকি-ভোগান্তি সত্ত্বেও ছুটছে মানুষ" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">লকডাউন-সংক্রমণ ঝুঁকি-ভোগান্তি সত্ত্বেও ছুটছে মানুষ</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7481">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/baharian-20210624145556.jpg"
+                                    alt="বাহরাইন প্রবাসীদের এনওসি না দেয়ার অভিযোগ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">বাহরাইন প্রবাসীদের এনওসি না দেয়ার অভিযোগ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-1-contents my-3">
+                <div class="video-category-title">
+                    <h3 class="category-title d-flex">
+                        <span></span>
+                        <a href="https://www.jagonews24.com/video/news">খবর</a>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7488">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624220859.jpg"
+                                    alt="জলে ভাসছে প্রধানমন্ত্রীর দেয়া উপহারের ঘর | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">জলে ভাসছে প্রধানমন্ত্রীর দেয়া উপহারের ঘর | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7487">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624215248.jpg"
+                                    alt="সরকারি জ্বালানির ট্যাংকারে গাঁজা, প্রাইভেটকারের সিলিন্ডারে ইয়াবা | ২৪ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">সরকারি জ্বালানির ট্যাংকারে গাঁজা, প্রাইভেটকারের সিলিন্ডারে ইয়াবা
+                                    | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7483">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624172442.jpg"
+                                    alt="পণ্য ডেলিভারির পর টাকা পাবে ইভ্যালির মতো প্রতিষ্ঠান | ২৪ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">পণ্য ডেলিভারির পর টাকা পাবে ইভ্যালির মতো প্রতিষ্ঠান | ২৪ জুন
+                                    ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7482">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624165555.jpg"
+                                    alt="লকডাউন-সংক্রমণ ঝুঁকি-ভোগান্তি সত্ত্বেও ছুটছে মানুষ" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">লকডাউন-সংক্রমণ ঝুঁকি-ভোগান্তি সত্ত্বেও ছুটছে মানুষ</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7481">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/baharian-20210624145556.jpg"
+                                    alt="বাহরাইন প্রবাসীদের এনওসি না দেয়ার অভিযোগ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">বাহরাইন প্রবাসীদের এনওসি না দেয়ার অভিযোগ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7480">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/kader-l-20210624135950.jpg"
+                                    alt="প্রতিপক্ষের লোকদের ‘গণপিটুনি’ দিতে বললেন কাদের মির্জা | ২৪ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">প্রতিপক্ষের লোকদের ‘গণপিটুনি’ দিতে বললেন কাদের মির্জা | ২৪ জুন
+                                    ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7479">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/porcula-1-20210624132547.jpg"
+                                    alt="পরচুলায় বাড়ছে নারীর কর্মসংস্থান | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">পরচুলায় বাড়ছে নারীর কর্মসংস্থান | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news/7476">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210623202647.jpg"
+                                    alt="৮ বছর জেল খেটে ৪৯ মামলার বাদীকে খুঁজছেন কাঞ্চন | ২৩ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৮ বছর জেল খেটে ৪৯ মামলার বাদীকে খুঁজছেন কাঞ্চন | ২৩ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-1-contents my-3">
+                <div class="video-category-title">
+                    <h3 class="category-title d-flex">
+                        <span></span>
+                        <a href="https://www.jagonews24.com/video/feature">ফিচার</a>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7484">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/1280px-hd-20210624185906.jpg"
+                                    alt="ক্লিক স্বাস্থ্য কথন | পর্ব ০৩ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">ক্লিক স্বাস্থ্য কথন | পর্ব ০৩ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7477">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/pabna-20210623210446.jpg"
+                                    alt="তিন যুগে বটগাছ লাগিয়েছেন ৪ শতাধিক, অন্যান্য অর্ধলাখ | ২৩ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">তিন যুগে বটগাছ লাগিয়েছেন ৪ শতাধিক, অন্যান্য অর্ধলাখ | ২৩ জুন ২০২১
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7462">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/kanchan-2-20210622185429.jpg"
+                                    alt="সুদর্শন কারও সঙ্গে গুঞ্জন হলে মানা যেত, তাই বলে কাঞ্চন মল্লিক! |  ২২ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">সুদর্শন কারও সঙ্গে গুঞ্জন হলে মানা যেত, তাই বলে কাঞ্চন মল্লিক! |
+                                    ২২ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7447">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/said-rimon-20210622153118.jpg"
+                                    alt="সচেতনতার ফেরিওয়ালা সাঈদ রিমন | ২১ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">সচেতনতার ফেরিওয়ালা সাঈদ রিমন | ২১ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7338">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/tisha-2-20210613171744.jpg"
+                                    alt="যে কারণে সিনেমায় অভিনয় করেন না তিশা | ১৩ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">যে কারণে সিনেমায় অভিনয় করেন না তিশা | ১৩ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7270">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/lighthouse-up-662021-20210607151410.jpg"
+                                    alt="জাগো নিউজ লাইটহাউজ | করোনা যুদ্ধে স্বাস্থ্য খাতের যুদ্ধ" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">জাগো নিউজ লাইটহাউজ | করোনা যুদ্ধে স্বাস্থ্য খাতের যুদ্ধ</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7251">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/193818405-302679838197595-7801008684988221916-n-20210606135211.jpg"
+                                    alt="হতাশাকে পুঁজি করে নিজের পায়ে দাঁড়িয়েছেন থটস অব শামস | thoughts of shams | ০৬ জুন ২০২১"
+                                    style="width:100%" class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">হতাশাকে পুঁজি করে নিজের পায়ে দাঁড়িয়েছেন থটস অব শামস | thoughts of
+                                    shams | ০৬ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/feature/7248">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/lighthouse-562021-20210606130925.jpg"
+                                    alt="জাগো নিউজ লাইটহাউজ | করোনাযুদ্ধ ও বাংলাদেশ" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">জাগো নিউজ লাইটহাউজ | করোনাযুদ্ধ ও বাংলাদেশ</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-1-contents my-3">
+                <div class="video-category-title">
+                    <h3 class="category-title d-flex">
+                        <span></span>
+                        <a href="https://www.jagonews24.com/video/news-flash">নিউজ ফ্ল্যাশ</a>
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7485">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210624203213.jpg"
+                                    alt="৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৪ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৪ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7478">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-9-20210623220509.jpg"
+                                    alt="১ মিনিটে আজকের বাংলাদেশ | ২৩ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">১ মিনিটে আজকের বাংলাদেশ | ২৩ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7475">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-1-20210623193909.png"
+                                    alt="৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৩ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৫ মিনিটে আজকের বিশ্ব সংবাদ | ২৩ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7464">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/6-20210622224144.jpg"
+                                    alt="১ মিনিটে আজকের বাংলাদেশ | ২২ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">১ মিনিটে আজকের বাংলাদেশ | ২২ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7463">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/untitled-2-20210622221748.jpg"
+                                    alt="৫ মিনিটে আজকের বিশ্ব সংবাদ | ২২ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৫ মিনিটে আজকের বিশ্ব সংবাদ | ২২ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7449">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/bbbb-20210621220252.jpg"
+                                    alt="১ মিনিটে আজকের বাংলাদেশ | ২১ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">১ মিনিটে আজকের বাংলাদেশ | ২১ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7448">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/usa-20210621205437.png"
+                                    alt="৫ মিনিটে আজকের বিশ্ব সংবাদ | ২১ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">৫ মিনিটে আজকের বিশ্ব সংবাদ | ২১ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 d-flex align-items-stretch">
+                        <a class="card" href="https://www.jagonews24.com/video/news-flash/7436">
+                            <div class="card-image">
+                                <img src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/tic-tok-20210620221451.jpg"
+                                    alt="১ মিনিটে আজকের বাংলাদেশ | ২০ জুন ২০২১" style="width:100%"
+                                    class="w-100 img-fluid card-img-top">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" height="48" viewBox="0 0 24 24"
+                                    width="48">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">১ মিনিটে আজকের বাংলাদেশ | ২০ জুন ২০২১</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="footer-logo hidden-xs">
+            <div class="container-fluid">
+                <div class="row hidden-print">
+                    <div class="col-sm-12">
+                        <div id="subscription" class="text-center"></div>
+                    </div>
+                </div>
+                <div class="row hidden-print">
+                    <div class="col-sm-4 center">
+                        <a href="index.html"><img src="assets/images/home/logo.png"
+                                style="margin-top:-10px;width: 260px;" alt="Logo"></a>
+                    </div>
+                    <div class="col-sm-4 text-center subscribe hidden-print">
+                    </div>
+                    <div class="col-sm-4 text-right hidden-print">
+                        <div class="apps">
+                            <a href="https://play.google.com/store/apps/details?id=com.jagonews24.bangla" rel="nofollow"
+                                target="_blank"><img
+                                    src="https://cdn.jagonews24.com/media/common/Android-app-jagonews.png"
+                                    alt="Android App" title="Android"></a>
+                            <a href="https://itunes.apple.com/us/app/jagonews24.com/id1047514259?ls=1&amp;mt=8"
+                                rel="nofollow" target="_blank">
+                                <img src="https://cdn.jagonews24.com/media/common/apple-app-jagonews.png" alt="iPhone"
+                                    title="iPhone">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="small text-muted">
+                            <span>ভারপ্রাপ্ত সম্পাদক: জিয়াউল হক <br>© ২০২১ সর্বস্বত্ব সংরক্ষিত | জাগোনিউজ২৪.কম, একেসি
+                                প্রাইভেট লিমিটেডের একটি প্রতিষ্ঠান</span><br>
+                            <i class="fa fa-map-marker"></i> আজহার কমফোর্ট কমপ্লেক্স (৫ম তলা), গ-১৩০/এ প্রগতি সরণি,
+                            মধ্যবাড্ডা, ঢাকা-১২১২
+                            <br>
+                            <abbr title="Phone:"><i class="fa fa-phone"></i> </abbr> ৮৮ ০২ ২২২২৬২৬৮৯ ,
+                            <abbr title="Fax:"><i class="fa fa-fax"></i> </abbr> ৮৮ ০২ ৯৮৪২১৭৬
+                            <a href="https://wa.me/8801704112020" class="small text-muted" target="_blank"
+                                rel="nofollow">
+                                <abbr title="WhatsApp:"><i class="fa fa-whatsapp"></i> </abbr> +8801704112020<br>
+                            </a>
+                            <span class="small">
+                                <abbr title="Email:"><i class="fa fa-envelope"></i> </abbr> info@jagonews24.com,
+                                jagonews24@gmail.com<br>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-sm-5 footer-top hidden-print">
+                        <ul class="footer-menu text-center">
+                            <li class="pb-10"><a href="https://www.jagonews24.com/about-us">আমাদের কথা</a>
+                            </li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/contact">যোগাযোগ </a></li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/privacy-policy"
+                                    target="_blank">প্রাইভেসি পলিসি</a></li>
+                            <li class="active pb-10"><a href="https://www.jagonews24.com/bangla-converter"
+                                    target="_blank">ইউনিকোড কনভার্টার</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-top-wrapper hidden-print show">
+                <span class="scroll-top-inner">
+                    <i class="fa fa-2x fa-angle-up"></i>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- All js files are included here. -->
+    <!-- jquery latest version -->
+    <script src="assets/plugins/jquery/jquery-v3.3.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <!-- Main js file  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

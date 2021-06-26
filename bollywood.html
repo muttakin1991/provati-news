@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jagonews24</title>
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!---------- Topbar ---------------->
+        <nav id="top" class="navbar">
+            <div class="container-fluid">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-4 center">
+                            <small class="date">
+                                বুধবার, ২৩ জুন ২০২১
+                                <span class="d-block">৮ আষাঢ় ১৪২৮ বঙ্গাব্দ</span>
+                            </small>
+                        </div>
+                        <div class="col-sm-4 center">
+                            <a class="navbar-brand" href="index.html">
+                                <img alt="Logo" src="assets/images/home/logo.JPG" style="width: 340px;">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 center mt-20">
+                            <ul class="social-media">
+                                <li>
+                                    <a href="https://www.facebook.com/jagonews24" target="_blank" title="Facebook">
+                                        <i class="zmdi zmdi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCWJkfdG6J2HUxOHrORuHZ2g?sub_confirmation=1"
+                                        target="_blank" title="Youtube">
+                                        <i class="zmdi zmdi-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/jagonews24" target="_blank" title="Twitter">
+                                        <i class="zmdi zmdi-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/jagonews24/" target="_blank" title="Instagram">
+                                        <i class="zmdi zmdi-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!---------- Menubar ---------------->
+        <nav id="menu" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid position-relative">
+                <div id="sb-search" class="sb-search">
+                    <form class="srch_submit"
+                        id="cse-search-box" target="_blank">
+                        <div>
+                            <input class="sb-search-input srch_submit" type="text"
+                                placeholder="অনুসন্ধান" name="q" id="q">
+                            <button type="button" id="sa" class="sa" name="sa" value=""><i class="fa fa-search"></i></button>
+                            <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+                        </div>
+                    </form>
+                    <span class="sb-icon-close"><i class="fa fa-times"></i></span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menubar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menubar">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><i class="zmdi zmdi-home"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বাংলাদেশ
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="national.html">জাতীয়</a>
+                                <a class="dropdown-item" href="politics.html">রাজনীতি</a>
+                                <a class="dropdown-item" href="economics.html">অর্থনীতি</a>
+                                <a class="dropdown-item" href="special-report.html">বিশেষ প্রতিবেদন</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="coronavirus.html">করোনাভাইরাস</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                দেশজুড়ে
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="whole-country.html">জেলার খবর</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="international.html">আন্তর্জাতিক</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                খেলাধুলা
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="cricket.html">ক্রিকেট</a>
+                                <a class="dropdown-item" href="football.html">ফুটবল</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="podcast.html">পডকাস্ট</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="topten.html">টপ টেন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">ভিডিও</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                বিনোদন
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="hollywood.html">হলিউড</a>
+                                <a class="dropdown-item" href="bollywood.html">বলিউড</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                                ফিচার
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="photo-gallery.html">ফটো গ্যালারি</a>
+                                <a class="dropdown-item" href="lifestyle.html">লাইফস্টাইল</a>
+                                <a class="dropdown-item" href="technology.html">তথ্যপ্রযুক্তি</a>
+                                <a class="dropdown-item" href="travel.html">ভ্রমণ</a>
+                                <a class="dropdown-item" href="agriculture.html">কৃষি ও প্রকৃতি</a>
+                                <a class="dropdown-item" href="jokes.html">জোকস</a>
+                                <a class="dropdown-item" href="ekush.html">একুশে বইমেলা</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown megamenu"><a id="megamneu" href="" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"
+                                class="nav-link dropdown-toggle text-uppercase">অন্যান্য</a>
+                            <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                                <div class="container-fluid p-0">
+                                    <div class="row bg-white m-0 shadow-sm" style="border-radius: 5px 5px 0 0;">
+                                        <div class="col-sm-12">
+                                            <div class="p-2">
+                                                <div class="row mega">
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href="education.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">শিক্ষা</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="campus.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">ক্যাম্পাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="health.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">স্বাস্থ্য</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href="law.html"
+                                                                    class="nav-link mega-color text-small pb-0 ">আইন-আদালত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">ধর্ম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">প্রবাস</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">গণমাধ্যম</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">নারী ও
+                                                                    শিশু</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">বাণিজ্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">
+                                                                    সাহিত্য
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">জাগো
+                                                                    জবস
+                                                                </a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 ">মতামত</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-3 megaitems b-4">
+                                                        <ul class="list-unstyled">
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-clock-o"></span> আজকের আয়োজন</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-camera-retro"></span> আর্কাইভ</a>
+                                                            </li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-share-alt"></span> সোশ্যাল
+                                                                    মিডিয়া</a></li>
+                                                            <li class="nav-item"><a href=""
+                                                                    class="nav-link mega-color text-small pb-0 "><span
+                                                                        class="fa fa-language"></span> ইউনিকোড
+                                                                    কনভার্টার</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row ptb-20">
+                <div class="col-sm-12">
+                    <ol class="breadcrumb no-margin">
+                        <li><a href="https://www.jagonews24.com"><i class="fa fa-home text-danger"></i></a></li>
+                        <li class="active">&nbsp; / &nbsp;জাতীয়</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-12 main-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="single-block">
+                                <div class="row">
+                                    <div class="col-lg-8 col-sm-12">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678215"
+                                                title="চট্টগ্রামে ২৪ ঘণ্টায় ২৪৭ জনের করোনা শনাক্ত">
+                                                <img alt="চট্টগ্রামে ২৪ ঘণ্টায় ২৪৭ জনের করোনা শনাক্ত"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/SM/2019November/korona-test-20210624084945.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="pr-10 pt-10">
+                                            <h3 style="font-size:1.5em;line-height:34px;margin-bottom:10px;"><a
+                                                    href="https://www.jagonews24.com/national/news/678215"
+                                                    title="চট্টগ্রামে ২৪ ঘণ্টায় ২৪৭ জনের করোনা শনাক্ত">চট্টগ্রামে ২৪
+                                                    ঘণ্টায় ২৪৭ জনের করোনা শনাক্ত</a></h3>
+                                            করোনাভাইরাসে আক্রান্ত হয়ে চট্টগ্রামে গত ২৪ ঘণ্টায় আরও একজনের মৃত্যু হয়েছে। এ
+                                            নিয়ে জেলায় মোট মৃতের সংখ্যা দাঁড়াল ৬৬৬ জনে। একই সময়ের মধ্যে করোনা শনাক্ত
+                                            হয়েছেন ২৪৭ জন। ফলে মোট শনাক্তের সংখ্যা দাঁড়াল ৫৬ হাজার ৮৮০ জনে...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                        </div>
+                    </div>
+
+                    <div class="row" id="loadMoreContent">
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678198"
+                                                title="একই দিনে পররাষ্ট্র মন্ত্রণালয়ে ভারত-পাকিস্তানের হাইকমিশনার">
+                                                <img alt="একই দিনে পররাষ্ট্র মন্ত্রণালয়ে ভারত-পাকিস্তানের হাইকমিশনার"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/india-20210624021303.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678198"
+                                                    title="একই দিনে পররাষ্ট্র মন্ত্রণালয়ে ভারত-পাকিস্তানের হাইকমিশনার">একই
+                                                    দিনে পররাষ্ট্র মন্ত্রণালয়ে ভারত-পাকিস্তানের হাইকমিশনার</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678196"
+                                                title="করোনায় জীবন দিলেন পুলিশের আরও এক সদস্য">
+                                                <img alt="করোনায় জীবন দিলেন পুলিশের আরও এক সদস্য"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/police-20210624004214.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678196"
+                                                    title="করোনায় জীবন দিলেন পুলিশের আরও এক সদস্য">করোনায় জীবন দিলেন
+                                                    পুলিশের আরও এক সদস্য</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678192"
+                                                title="নোয়াম চমস্কির সঙ্গে রিপনের লাইভ নিয়ে আলোচনার ঝড়">
+                                                <img alt="নোয়াম চমস্কির সঙ্গে রিপনের লাইভ নিয়ে আলোচনার ঝড়"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/live-20210624000500.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678192"
+                                                    title="নোয়াম চমস্কির সঙ্গে রিপনের লাইভ নিয়ে আলোচনার ঝড়">নোয়াম
+                                                    চমস্কির সঙ্গে রিপনের লাইভ নিয়ে আলোচনার ঝড়</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678182"
+                                                title="ব্র্যাকের নির্বাহী পরিচালকের রোহিঙ্গা ক্যাম্প পরিদর্শন">
+                                                <img alt="ব্র্যাকের নির্বাহী পরিচালকের রোহিঙ্গা ক্যাম্প পরিদর্শন"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/brac-20210623221236.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678182"
+                                                    title="ব্র্যাকের নির্বাহী পরিচালকের রোহিঙ্গা ক্যাম্প পরিদর্শন">ব্র্যাকের
+                                                    নির্বাহী পরিচালকের রোহিঙ্গা ক্যাম্প পরিদর্শন</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678177"
+                                                title="রাজধানীতে ২০ হাজার ইয়াবাসহ দুই মাদক কারবারি গ্রেফতার">
+                                                <img alt="রাজধানীতে ২০ হাজার ইয়াবাসহ দুই মাদক কারবারি গ্রেফতার"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/yaba-20210623215822.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678177"
+                                                    title="রাজধানীতে ২০ হাজার ইয়াবাসহ দুই মাদক কারবারি গ্রেফতার">রাজধানীতে
+                                                    ২০ হাজার ইয়াবাসহ দুই মাদক কারবারি গ্রেফতার</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678174"
+                                                title="ওজনে কম দেয়ায় পেট্রল পাম্পের ক্যাশিয়ারের কারাদণ্ড">
+                                                <img alt="ওজনে কম দেয়ায় পেট্রল পাম্পের ক্যাশিয়ারের কারাদণ্ড"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/bsti-20210623214900.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678174"
+                                                    title="ওজনে কম দেয়ায় পেট্রল পাম্পের ক্যাশিয়ারের কারাদণ্ড">ওজনে কম
+                                                    দেয়ায় পেট্রল পাম্পের ক্যাশিয়ারের কারাদণ্ড</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678169"
+                                                title="এবার অস্ত্রসহ ‘বুস্টার গ্যাং’ এর ৭ সদস্য গ্রেফতার">
+                                                <img alt="এবার অস্ত্রসহ ‘বুস্টার গ্যাং’ এর ৭ সদস্য গ্রেফতার"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/buster-1-20210623214044.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678169"
+                                                    title="এবার অস্ত্রসহ ‘বুস্টার গ্যাং’ এর ৭ সদস্য গ্রেফতার">এবার
+                                                    অস্ত্রসহ ‘বুস্টার গ্যাং’ এর ৭ সদস্য গ্রেফতার</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678168"
+                                                title="লোহাগাড়ায় ভাবির ছুরিকাঘাতে দেবর খুন">
+                                                <img alt="লোহাগাড়ায় ভাবির ছুরিকাঘাতে দেবর খুন"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/murder-20210623213746.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678168"
+                                                    title="লোহাগাড়ায় ভাবির ছুরিকাঘাতে দেবর খুন">লোহাগাড়ায় ভাবির
+                                                    ছুরিকাঘাতে দেবর খুন</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678167"
+                                                title="ঢাকা বাইপাস সড়কের চার লেন প্রকল্পের কাজ শুরু">
+                                                <img alt="ঢাকা বাইপাস সড়কের চার লেন প্রকল্পের কাজ শুরু"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/pub-20210623213557.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678167"
+                                                    title="ঢাকা বাইপাস সড়কের চার লেন প্রকল্পের কাজ শুরু">ঢাকা বাইপাস
+                                                    সড়কের চার লেন প্রকল্পের কাজ শুরু</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678165"
+                                                title="ফায়ার সার্ভিস অধিদফতরের বার্ষিক চুক্তি সই">
+                                                <img alt="ফায়ার সার্ভিস অধিদফতরের বার্ষিক চুক্তি সই"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/fire-service-20210623213132.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678165"
+                                                    title="ফায়ার সার্ভিস অধিদফতরের বার্ষিক চুক্তি সই">ফায়ার সার্ভিস
+                                                    অধিদফতরের বার্ষিক চুক্তি সই</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678157"
+                                                title="দ্বিতীয় ডোজের টিকা নিলেন আরও ২৭৬৬ জন">
+                                                <img alt="দ্বিতীয় ডোজের টিকা নিলেন আরও ২৭৬৬ জন"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/corona-vacc-20210623210748.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678157"
+                                                    title="দ্বিতীয় ডোজের টিকা নিলেন আরও ২৭৬৬ জন">দ্বিতীয় ডোজের টিকা
+                                                    নিলেন আরও ২৭৬৬ জন</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678152"
+                                                title="আ.লীগ হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী">
+                                                <img alt="আ.লীগ হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/dudok-png-3-20210623204710.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678152"
+                                                    title="আ.লীগ হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী">আ.লীগ
+                                                    হীরার টুকরো, ভাঙলে আরও জ্বলজ্বল করে : প্রধানমন্ত্রী</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678151"
+                                                title="রাজধানীর এক বেকারিকে জরিমানা, আরেকটি সিলগালা">
+                                                <img alt="রাজধানীর এক বেকারিকে জরিমানা, আরেকটি সিলগালা"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/fine-20210623204222.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678151"
+                                                    title="রাজধানীর এক বেকারিকে জরিমানা, আরেকটি সিলগালা">রাজধানীর এক
+                                                    বেকারিকে জরিমানা, আরেকটি সিলগালা</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678150"
+                                                title="রাজধানীতে তরুণীর আত্মহত্যা">
+                                                <img alt="রাজধানীতে তরুণীর আত্মহত্যা"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/dmc-20210623204302.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678150"
+                                                    title="রাজধানীতে তরুণীর আত্মহত্যা">রাজধানীতে তরুণীর আত্মহত্যা</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678139"
+                                                title="অধীন সংস্থার সঙ্গে পর্যটন মন্ত্রণালয়ের কর্মসম্পাদন চুক্তি সই">
+                                                <img alt="অধীন সংস্থার সঙ্গে পর্যটন মন্ত্রণালয়ের কর্মসম্পাদন চুক্তি সই"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/turism-20210623200633.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678139"
+                                                    title="অধীন সংস্থার সঙ্গে পর্যটন মন্ত্রণালয়ের কর্মসম্পাদন চুক্তি সই">অধীন
+                                                    সংস্থার সঙ্গে পর্যটন মন্ত্রণালয়ের কর্মসম্পাদন চুক্তি সই</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678137"
+                                                title="সংক্রমণ-মৃত্যু বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?">
+                                                <img alt="সংক্রমণ-মৃত্যু বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/corona-deat-20210623195203.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678137"
+                                                    title="সংক্রমণ-মৃত্যু বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?">সংক্রমণ-মৃত্যু
+                                                    বাড়ছেই : সারাদেশে লকডাউন কি আসন্ন?</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678133"
+                                                title="‘জমি স্বল্পতার জন্য সৌরবিদ্যুতের বড় প্রকল্প নেয়া যাচ্ছে না’">
+                                                <img alt="‘জমি স্বল্পতার জন্য সৌরবিদ্যুতের বড় প্রকল্প নেয়া যাচ্ছে না’"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/nasrul-hamid-20210508170156-20210623193751.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678133"
+                                                    title="‘জমি স্বল্পতার জন্য সৌরবিদ্যুতের বড় প্রকল্প নেয়া যাচ্ছে না’">‘জমি
+                                                    স্বল্পতার জন্য সৌরবিদ্যুতের বড় প্রকল্প নেয়া যাচ্ছে না’</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678129"
+                                                title="‘ইতিহাসে আ.লীগ-বঙ্গবন্ধু-বাংলাদেশ-শেখ হাসিনা সমার্থক হয়ে থাকবে’">
+                                                <img alt="‘ইতিহাসে আ.লীগ-বঙ্গবন্ধু-বাংলাদেশ-শেখ হাসিনা সমার্থক হয়ে থাকবে’"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/rezaul-20210623193114.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678129"
+                                                    title="‘ইতিহাসে আ.লীগ-বঙ্গবন্ধু-বাংলাদেশ-শেখ হাসিনা সমার্থক হয়ে থাকবে’">‘ইতিহাসে
+                                                    আ.লীগ-বঙ্গবন্ধু-বাংলাদেশ-শেখ হাসিনা সমার্থক হয়ে থাকবে’</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678128"
+                                                title="বাংলাদেশের টিকা উৎপাদনের সক্ষমতা রয়েছে : প্রধানমন্ত্রী">
+                                                <img alt="বাংলাদেশের টিকা উৎপাদনের সক্ষমতা রয়েছে : প্রধানমন্ত্রী"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/pm-20210623192532.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678128"
+                                                    title="বাংলাদেশের টিকা উৎপাদনের সক্ষমতা রয়েছে : প্রধানমন্ত্রী">বাংলাদেশের
+                                                    টিকা উৎপাদনের সক্ষমতা রয়েছে : প্রধানমন্ত্রী</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6">
+                            <div class="single-block cat-block">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <div class="img-box">
+                                            <a href="https://www.jagonews24.com/national/news/678125"
+                                                title="ঢাকার চেয়ে খুলনায় একদিনে দ্বিগুণ মৃত্যু">
+                                                <img alt="ঢাকার চেয়ে খুলনায় একদিনে দ্বিগুণ মৃত্যু"
+                                                    src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/death-20210623190947.jpg"
+                                                    class="w-100 img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pt-10 pr-10">
+                                            <h3 style="font-size:1.1em;"><a
+                                                    href="https://www.jagonews24.com/national/news/678125"
+                                                    title="ঢাকার চেয়ে খুলনায় একদিনে দ্বিগুণ মৃত্যু">ঢাকার চেয়ে খুলনায়
+                                                    একদিনে দ্বিগুণ মৃত্যু</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center paddingBottom20">
+                        <button id="load_more_button"><img alt="Loader"
+                                src="https://cdn.jagonews24.com/media/common/ajax-loader.gif" class="animation_image"
+                                style="width: 30px; display: none;"> আরও পড়ুন</button>
+                    </div>
+                </div>
+                <aside class="col-lg-4 col-md-6 col-sm-12 aside">
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col-sm-12 paddingBottom20">
+
+                                <div id="div-gpt-ad-1509258458742-0" style="margin:auto;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="box-white">
+                                        <div class="jagoTab3">
+                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                                        href="#sports" role="tab" aria-controls="home"
+                                                        aria-selected="true">খেলাধুলা</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#entertainment"
+                                                        role="tab" aria-controls="profile" aria-selected="false">বিনোদন</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#lifestyle"
+                                                        role="tab" aria-controls="profile" aria-selected="false">লাইফস্টাইল</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="sports">
+                                                    <ul class="media-list" style="max-height:370px!important;">
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১</span><a
+                                                                    href="https://www.jagonews24.com/politics/news/677898">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/inner-1-20210623051757.jpg"
+                                                                        alt="সংগ্রামের সিঁড়ি বেয়ে গৌরবের ৭৩ বছরে আ.লীগ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/politics/news/677898">সংগ্রামের
+                                                                        সিঁড়ি বেয়ে গৌরবের ৭৩ বছরে আ.লীগ</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>২</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677897">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/hamid-20210623044643.jpg"
+                                                                        alt="জবাবদিহিতামূলক জনপ্রশাসনের ভূমিকা অপরিহার্য : রাষ্ট্রপতি"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677897">জবাবদিহিতামূলক
+                                                                        জনপ্রশাসনের ভূমিকা অপরিহার্য : রাষ্ট্রপতি</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৩</span><a
+                                                                    href="https://www.jagonews24.com/economy/news/677896">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/stock-20210623042023.jpg"
+                                                                        alt="বিও হিসাবে টাকা রাখলে মিলবে সুদ, তবে..."></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/economy/news/677896">বিও
+                                                                        হিসাবে টাকা রাখলে মিলবে সুদ, তবে...</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৪</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677895">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/health-20210623041250.jpg"
+                                                                        alt="সরকারি স্কুলের শিক্ষকদেরও লাগবে ডোপ টেস্ট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677895">সরকারি
+                                                                        স্কুলের শিক্ষকদেরও লাগবে ডোপ টেস্ট</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৫</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677894">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/f-20210623040722.jpg"
+                                                                        alt="এক গোলের জয়ে গ্রুপ চ্যাম্পিয়ন ইংল্যান্ড"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677894">এক
+                                                                        গোলের জয়ে গ্রুপ চ্যাম্পিয়ন ইংল্যান্ড</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৬</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677893">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/euro-20210623035954.jpg"
+                                                                        alt="মদ্রিচের জাদুতে নকআউটে ক্রোয়েশিয়া"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677893">মদ্রিচের
+                                                                        জাদুতে নকআউটে ক্রোয়েশিয়া</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৭</span><a
+                                                                    href="https://www.jagonews24.com/law-courts/news/677892">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/ad-20210623031512.jpg"
+                                                                        alt="ডিজিটাল আইনে হেফাজতের ১৯ নেতার বিরুদ্ধে মামলার আবেদন খারিজ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/law-courts/news/677892">ডিজিটাল
+                                                                        আইনে হেফাজতের ১৯ নেতার বিরুদ্ধে মামলার আবেদন
+                                                                        খারিজ</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৮</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677891">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/camp-20210623030601.jpg"
+                                                                        alt="ভাসানচর থেকে পালানো ১৪ রোহিঙ্গা আটক"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677891">ভাসানচর
+                                                                        থেকে পালানো ১৪ রোহিঙ্গা আটক</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৯</span><a
+                                                                    href="https://www.jagonews24.com/probash/news/677890">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/s-20210623023754.jpg"
+                                                                        alt="সুইজারল্যান্ডে এমপি হয়ে ইতিহাস গড়লেন বাংলাদেশি সুলতানা খান"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/probash/news/677890">সুইজারল্যান্ডে
+                                                                        এমপি হয়ে ইতিহাস গড়লেন বাংলাদেশি সুলতানা খান</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১০</span><a
+                                                                    href="https://www.jagonews24.com/education/news/677889">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/buet-20210623022200.jpg"
+                                                                        alt="বুয়েটের ভর্তি পরীক্ষা স্থগিত"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/education/news/677889">বুয়েটের
+                                                                        ভর্তি পরীক্ষা স্থগিত</a></h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="allnews"><a href="https://www.jagonews24.com/archive">আজকের
+                                                            সর্বশেষ সবখবর</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="entertainment">
+                                                    <ul class="media-list" style="max-height:370px!important;">
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677593">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/lock-20210610202845-20210622052728.jpg"
+                                                                        alt="ঝিনাইদহে আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677593">ঝিনাইদহে
+                                                                        আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>২</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677594">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/benapole-retran-bangladesh--20210622053924.jpg"
+                                                                        alt="বেনাপোল দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677594">বেনাপোল
+                                                                        দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৩</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677595">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/vidal-20210622054817.jpg"
+                                                                        alt="ভিদালের আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677595">ভিদালের
+                                                                        আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৪</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677596">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argentina-20210622061301.jpg"
+                                                                        alt="শুরু হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677596">শুরু
+                                                                        হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৫</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677597">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/rohinga-camp-20210622061601.jpg"
+                                                                        alt="‘ভূগর্ভস্থ উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677597">‘ভূগর্ভস্থ
+                                                                        উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৬</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677598">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/sa-20210622063218.jpg"
+                                                                        alt="ওয়েস্ট ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677598">ওয়েস্ট
+                                                                        ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৭</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677599">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/keshav-20210622064929.jpg"
+                                                                        alt="৬১ বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677599">৬১
+                                                                        বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৮</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677600">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argen-20210622065824.jpg"
+                                                                        alt="প্রথমার্ধে ১-০ গোলে এগিয়ে আর্জেন্টিনা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677600">প্রথমার্ধে
+                                                                        ১-০ গোলে এগিয়ে আর্জেন্টিনা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৯</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677601">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/messi-20210622080032.jpg"
+                                                                        alt="আর্জেন্টিনার জয়ের রেকর্ড, নিশ্চিত নকআউট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677601">আর্জেন্টিনার
+                                                                        জয়ের রেকর্ড, নিশ্চিত নকআউট</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১০</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677602">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/202100800-4525121690839610--20210622082507.jpg"
+                                                                        alt="শর্তসাপেক্ষে কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন স্পট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677602">শর্তসাপেক্ষে
+                                                                        কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন
+                                                                        স্পট</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="allnews"><a href="https://www.jagonews24.com/archive">আজকের
+                                                            সর্বশেষ সবখবর</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="lifestyle">
+                                                    <ul class="media-list" style="max-height:370px!important;">
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677593">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/lock-20210610202845-20210622052728.jpg"
+                                                                        alt="ঝিনাইদহে আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677593">ঝিনাইদহে
+                                                                        আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>২</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677594">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/benapole-retran-bangladesh--20210622053924.jpg"
+                                                                        alt="বেনাপোল দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677594">বেনাপোল
+                                                                        দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৩</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677595">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/vidal-20210622054817.jpg"
+                                                                        alt="ভিদালের আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677595">ভিদালের
+                                                                        আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৪</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677596">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argentina-20210622061301.jpg"
+                                                                        alt="শুরু হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677596">শুরু
+                                                                        হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৫</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677597">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/rohinga-camp-20210622061601.jpg"
+                                                                        alt="‘ভূগর্ভস্থ উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677597">‘ভূগর্ভস্থ
+                                                                        উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৬</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677598">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/sa-20210622063218.jpg"
+                                                                        alt="ওয়েস্ট ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677598">ওয়েস্ট
+                                                                        ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৭</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677599">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/keshav-20210622064929.jpg"
+                                                                        alt="৬১ বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677599">৬১
+                                                                        বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৮</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677600">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argen-20210622065824.jpg"
+                                                                        alt="প্রথমার্ধে ১-০ গোলে এগিয়ে আর্জেন্টিনা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677600">প্রথমার্ধে
+                                                                        ১-০ গোলে এগিয়ে আর্জেন্টিনা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৯</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677601">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/messi-20210622080032.jpg"
+                                                                        alt="আর্জেন্টিনার জয়ের রেকর্ড, নিশ্চিত নকআউট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677601">আর্জেন্টিনার
+                                                                        জয়ের রেকর্ড, নিশ্চিত নকআউট</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১০</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677602">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/202100800-4525121690839610--20210622082507.jpg"
+                                                                        alt="শর্তসাপেক্ষে কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন স্পট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677602">শর্তসাপেক্ষে
+                                                                        কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন
+                                                                        স্পট</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="allnews"><a href="https://www.jagonews24.com/archive">আজকের
+                                                            সর্বশেষ সবখবর</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="box-white">
+                                        <div class="jagoTab">
+                                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                                        href="#lastUpdate" role="tab" aria-controls="home"
+                                                        aria-selected="true">সর্বশেষ</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#favourite"
+                                                        role="tab" aria-controls="profile" aria-selected="false">জনপ্রিয়</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="myTabContent">
+                                                <div class="tab-pane fade show active" id="lastUpdate">
+                                                    <ul class="media-list" style="max-height:185px!important;">
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১</span><a
+                                                                    href="https://www.jagonews24.com/politics/news/677898">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/inner-1-20210623051757.jpg"
+                                                                        alt="সংগ্রামের সিঁড়ি বেয়ে গৌরবের ৭৩ বছরে আ.লীগ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/politics/news/677898">সংগ্রামের
+                                                                        সিঁড়ি বেয়ে গৌরবের ৭৩ বছরে আ.লীগ</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>২</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677897">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/hamid-20210623044643.jpg"
+                                                                        alt="জবাবদিহিতামূলক জনপ্রশাসনের ভূমিকা অপরিহার্য : রাষ্ট্রপতি"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677897">জবাবদিহিতামূলক
+                                                                        জনপ্রশাসনের ভূমিকা অপরিহার্য : রাষ্ট্রপতি</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৩</span><a
+                                                                    href="https://www.jagonews24.com/economy/news/677896">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/stock-20210623042023.jpg"
+                                                                        alt="বিও হিসাবে টাকা রাখলে মিলবে সুদ, তবে..."></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/economy/news/677896">বিও
+                                                                        হিসাবে টাকা রাখলে মিলবে সুদ, তবে...</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৪</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677895">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/health-20210623041250.jpg"
+                                                                        alt="সরকারি স্কুলের শিক্ষকদেরও লাগবে ডোপ টেস্ট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677895">সরকারি
+                                                                        স্কুলের শিক্ষকদেরও লাগবে ডোপ টেস্ট</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৫</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677894">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/f-20210623040722.jpg"
+                                                                        alt="এক গোলের জয়ে গ্রুপ চ্যাম্পিয়ন ইংল্যান্ড"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677894">এক
+                                                                        গোলের জয়ে গ্রুপ চ্যাম্পিয়ন ইংল্যান্ড</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৬</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677893">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/euro-20210623035954.jpg"
+                                                                        alt="মদ্রিচের জাদুতে নকআউটে ক্রোয়েশিয়া"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677893">মদ্রিচের
+                                                                        জাদুতে নকআউটে ক্রোয়েশিয়া</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৭</span><a
+                                                                    href="https://www.jagonews24.com/law-courts/news/677892">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/ad-20210623031512.jpg"
+                                                                        alt="ডিজিটাল আইনে হেফাজতের ১৯ নেতার বিরুদ্ধে মামলার আবেদন খারিজ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/law-courts/news/677892">ডিজিটাল
+                                                                        আইনে হেফাজতের ১৯ নেতার বিরুদ্ধে মামলার আবেদন
+                                                                        খারিজ</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৮</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677891">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/camp-20210623030601.jpg"
+                                                                        alt="ভাসানচর থেকে পালানো ১৪ রোহিঙ্গা আটক"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677891">ভাসানচর
+                                                                        থেকে পালানো ১৪ রোহিঙ্গা আটক</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৯</span><a
+                                                                    href="https://www.jagonews24.com/probash/news/677890">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/s-20210623023754.jpg"
+                                                                        alt="সুইজারল্যান্ডে এমপি হয়ে ইতিহাস গড়লেন বাংলাদেশি সুলতানা খান"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/probash/news/677890">সুইজারল্যান্ডে
+                                                                        এমপি হয়ে ইতিহাস গড়লেন বাংলাদেশি সুলতানা খান</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১০</span><a
+                                                                    href="https://www.jagonews24.com/education/news/677889">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/buet-20210623022200.jpg"
+                                                                        alt="বুয়েটের ভর্তি পরীক্ষা স্থগিত"></a></div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/education/news/677889">বুয়েটের
+                                                                        ভর্তি পরীক্ষা স্থগিত</a></h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="allnews"><a href="https://www.jagonews24.com/archive">আজকের
+                                                            সর্বশেষ সবখবর</a>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="favourite">
+                                                    <ul class="media-list" style="max-height:185px!important;">
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677593">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/lock-20210610202845-20210622052728.jpg"
+                                                                        alt="ঝিনাইদহে আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677593">ঝিনাইদহে
+                                                                        আজ সন্ধ্যা থেকে এক সপ্তাহের লকডাউন</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>২</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677594">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/benapole-retran-bangladesh--20210622053924.jpg"
+                                                                        alt="বেনাপোল দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677594">বেনাপোল
+                                                                        দিয়ে দেশে ফিরলেন ভারতে পাচার হওয়া তরুণী</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৩</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677595">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/vidal-20210622054817.jpg"
+                                                                        alt="ভিদালের আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677595">ভিদালের
+                                                                        আত্মঘাতী গোলে স্বপ্ন টিকে থাকল উরুগুয়ের</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৪</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677596">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argentina-20210622061301.jpg"
+                                                                        alt="শুরু হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677596">শুরু
+                                                                        হলো খেলা, আর্জেন্টিনার একাদশে খেলছেন কারা?</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৫</span><a
+                                                                    href="https://www.jagonews24.com/national/news/677597">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/rohinga-camp-20210622061601.jpg"
+                                                                        alt="‘ভূগর্ভস্থ উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/national/news/677597">‘ভূগর্ভস্থ
+                                                                        উৎস থেকে পানি তুলছে রোহিঙ্গারা, নামছে স্তর’</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৬</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677598">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/sa-20210622063218.jpg"
+                                                                        alt="ওয়েস্ট ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677598">ওয়েস্ট
+                                                                        ইন্ডিজকে হোয়াইটওয়াশ করলো দক্ষিণ আফ্রিকা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৭</span><a
+                                                                    href="https://www.jagonews24.com/sports/cricket/677599">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/keshav-20210622064929.jpg"
+                                                                        alt="৬১ বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/cricket/677599">৬১
+                                                                        বছর পর দ্বিতীয় হ্যাটট্রিক করলেন কেশভ মাহারাজ</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৮</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677600">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/argen-20210622065824.jpg"
+                                                                        alt="প্রথমার্ধে ১-০ গোলে এগিয়ে আর্জেন্টিনা"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677600">প্রথমার্ধে
+                                                                        ১-০ গোলে এগিয়ে আর্জেন্টিনা</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>৯</span><a
+                                                                    href="https://www.jagonews24.com/sports/football/677601">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/messi-20210622080032.jpg"
+                                                                        alt="আর্জেন্টিনার জয়ের রেকর্ড, নিশ্চিত নকআউট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/sports/football/677601">আর্জেন্টিনার
+                                                                        জয়ের রেকর্ড, নিশ্চিত নকআউট</a></h4>
+                                                            </div>
+                                                        </li>
+                                                        <li class="media">
+                                                            <div class="media-left">
+                                                                <span>১০</span><a
+                                                                    href="https://www.jagonews24.com/country/news/677602">
+                                                                    <img class="w-100 img-fluid"
+                                                                        src="https://cdn.jagonews24.com/media/common/placeholder-xs.png"
+                                                                        data-src="https://cdn.jagonews24.com/media/imgAllNew/XS/2019November/202100800-4525121690839610--20210622082507.jpg"
+                                                                        alt="শর্তসাপেক্ষে কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন স্পট"></a>
+                                                            </div>
+                                                            <div class="media-body">
+                                                                <h4 class="media-heading"><a
+                                                                        href="https://www.jagonews24.com/country/news/677602">শর্তসাপেক্ষে
+                                                                        কক্সবাজারে খুলছে হোটেল-মোটেল, বন্ধ থাকবে পর্যটন
+                                                                        স্পট</a>
+                                                                </h4>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="allnews"><a href="https://www.jagonews24.com/archive">আজকের
+                                                            সর্বশেষ সবখবর</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col-sm-12 pb-20">
+
+                                <div id="div-gpt-ad-1509258458742-1" style="margin:auto;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid ptb-20 d-flex justify-content-center">
+        <div class="">
+            <a href=""><img class="w-100 mx-auto image-responsive " src="image/national/frutifill.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <div class="footer-logo hidden-xs">
+            <div class="container-fluid">
+                <div class="row hidden-print">
+                    <div class="col-sm-12">
+                        <div id="subscription" class="text-center"></div>
+                    </div>
+                </div>
+                <div class="row hidden-print">
+                    <div class="col-sm-4 center">
+                        <a href="index.html"><img src="assets/images/home/logo.png"
+                                style="margin-top:-10px;width: 260px;" alt="Logo"></a>
+                    </div>
+                    <div class="col-sm-4 text-center subscribe hidden-print">
+                    </div>
+                    <div class="col-sm-4 text-right hidden-print">
+                        <div class="apps">
+                            <a href="https://play.google.com/store/apps/details?id=com.jagonews24.bangla" rel="nofollow"
+                                target="_blank"><img
+                                    src="https://cdn.jagonews24.com/media/common/Android-app-jagonews.png"
+                                    alt="Android App" title="Android"></a>
+                            <a href="https://itunes.apple.com/us/app/jagonews24.com/id1047514259?ls=1&amp;mt=8"
+                                rel="nofollow" target="_blank">
+                                <img src="https://cdn.jagonews24.com/media/common/apple-app-jagonews.png" alt="iPhone"
+                                    title="iPhone">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="small text-muted">
+                            <span>ভারপ্রাপ্ত সম্পাদক: জিয়াউল হক <br>© ২০২১ সর্বস্বত্ব সংরক্ষিত | জাগোনিউজ২৪.কম, একেসি
+                                প্রাইভেট লিমিটেডের একটি প্রতিষ্ঠান</span><br>
+                            <i class="fa fa-map-marker"></i> আজহার কমফোর্ট কমপ্লেক্স (৫ম তলা), গ-১৩০/এ প্রগতি সরণি,
+                            মধ্যবাড্ডা, ঢাকা-১২১২
+                            <br>
+                            <abbr title="Phone:"><i class="fa fa-phone"></i> </abbr> ৮৮ ০২ ২২২২৬২৬৮৯ ,
+                            <abbr title="Fax:"><i class="fa fa-fax"></i> </abbr> ৮৮ ০২ ৯৮৪২১৭৬
+                            <a href="https://wa.me/8801704112020" class="small text-muted" target="_blank"
+                                rel="nofollow">
+                                <abbr title="WhatsApp:"><i class="fa fa-whatsapp"></i> </abbr> +8801704112020<br>
+                            </a>
+                            <span class="small">
+                                <abbr title="Email:"><i class="fa fa-envelope"></i> </abbr> info@jagonews24.com,
+                                jagonews24@gmail.com<br>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-sm-5 footer-top hidden-print">
+                        <ul class="footer-menu text-center">
+                            <li class="pb-10"><a href="https://www.jagonews24.com/about-us">আমাদের কথা</a>
+                            </li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/contact">যোগাযোগ </a></li>
+                            <li class="pb-10"><a href="https://www.jagonews24.com/privacy-policy"
+                                    target="_blank">প্রাইভেসি পলিসি</a></li>
+                            <li class="active pb-10"><a href="https://www.jagonews24.com/bangla-converter"
+                                    target="_blank">ইউনিকোড কনভার্টার</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-top-wrapper hidden-print show">
+                <span class="scroll-top-inner">
+                    <i class="fa fa-2x fa-angle-up"></i>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- All js files are included here. -->
+    <!-- jquery latest version -->
+    <script src="assets/plugins/jquery/jquery-v3.3.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <!-- Main js file  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
